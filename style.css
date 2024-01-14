@@ -170,6 +170,11 @@ input:focus {
   font-family: inter;
   font-weight: 400;
   line-height: 21px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+#chat__section::-webkit-scrollbar {
+  display: none;
 }
 .hidden {
   display: none;
