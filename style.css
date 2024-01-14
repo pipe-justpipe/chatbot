@@ -119,6 +119,7 @@ header .avartar {
   justify-content: space-between;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
+  padding-top: 20px;
 }
 form {
   position: relative;
