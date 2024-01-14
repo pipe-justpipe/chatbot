@@ -27,7 +27,7 @@ const aiMessages = [
   "I'm here to help! What do you need?",
 ];
 let count = 0;
-let userImage = "Images/chatAvatars.png";
+let userImage = "images/chatAvatars.png";
 
 function send() {
   sendBtn.style.display = "none";
@@ -105,7 +105,7 @@ function createChat(message, imageSrc, includeImage) {
   if (
     message === "No problem! Let me connect you to a customer support agent."
   ) {
-    userImage = "Images/Avatars.png";
+    userImage = "images/Avatars.png";
     chatBubble.style.height = "74px";
 
     if (window.matchMedia("(max-width: 480px)").matches) {
