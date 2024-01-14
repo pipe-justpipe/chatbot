@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============ button to display the chat ============= -->
+    <img src="images/Intercom.png" alt="showChat" id="show__btn" />
+    <section id="imgtxt">
+      <div class="per">
+        <!-- ============= button to hide the chat ============== -->
+        <img src="images/Trigger.png" alt="hideChat" id="hide__btn" />
+      </div>
+      <!-- ============= container for the chat ============= -->
+      <section id="all">
+        <header id="profile">
+          <img src="images/leftarrow.png" id="arrow">
+          <div id="widget__header">
+            <div id="online">
+              <!-- ============ pictures of the bot and the representative =========== -->
+              <img src="images/Avatars.png" class="avartar" />
+              <img src="images/Ellipse 8.png" class="ellipse" />
+            </div>
+            <div class="nameTime">
+              <h3 id="name">Hannah</h3>
+              <span class="time">Active 1h ago</span>
+            </div>
+          </div>
+        </header>
+        <main id="conversation">
+          <!-- =========== chat area =========== -->
+          <section id="chat__section"></section>
+          <!-- ================ form section ================ -->
+          <section class="Input_section">
+            <form>
+              <input id="input" type="text" placeholder="Type a reply..." />
+              <div class="icons">
+                <img src="images/Chips Text.png" alt="gif" class="icon" />
+                <img src="images/Chips Text (1).png" alt="emoji" class="icon" />
+                <img
+                  src="images/Chips Text (2).png"
+                  alt="an icon"
+                  class="icon"
+                />
+              </div>
+              <img src="images/telegram-xxl.png" alt="send_icon" id="send" />
+            </form>
+          </section>
+        </main>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
