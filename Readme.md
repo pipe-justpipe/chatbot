@@ -18,7 +18,7 @@ This is a simple chat application built using HTML, CSS, and JavaScript. It allo
 
 1. Clone the repository:
 
-   git clone https://github.com//chat-application.git
+   git clone https://github.com/pipe-justpipe/chatbot.git
 
 
 2. Open the `index.html` file in your preferred web browser.
