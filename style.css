@@ -217,7 +217,12 @@ body {
     height: 100vh;
     padding: 0 10px;
   }
-
+  #chat__section {
+    height: 359.8px;
+  }
+  #all {
+    height: 543px;
+  }
   #all,
   #profile,
   #input,
