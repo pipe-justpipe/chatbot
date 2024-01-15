@@ -5,6 +5,7 @@ const chatSection = document.getElementById("chat__section");
 const showChat = document.getElementById("all");
 const showBtn = document.getElementById("show__btn");
 const hideBtn = document.getElementById("hide__btn");
+const arrow = document.getElementById("arrow")
 function show() {
   showBtn.style.display = "none";
   hideBtn.style.display = "block";
@@ -18,6 +19,7 @@ function hide() {
   showChat.style.display = "none";
 }
 hideBtn.addEventListener("click", hide);
+arrow.addEventListener("click", hide)
 
 const aiMessages = [
   "👋 Hi there! How can I help?",
@@ -125,6 +127,7 @@ function createChat(message, imageSrc, includeImage) {
     chatBubble.style.display = "flex";
     chatBubble.style.flexDirection = "column";
     chatBubble.style.justifyContent = "space-between";
+    chatBubble.style.marginBottom = "20px"
 
     const spanElement = document.createElement("span");
     spanElement.textContent = "Hannah . Just now";
