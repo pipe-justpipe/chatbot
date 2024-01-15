@@ -223,6 +223,9 @@ body {
   #all {
     height: 543px;
   }
+  #conversation{
+    height: 440px;
+  }
   #all,
   #profile,
   #input,
