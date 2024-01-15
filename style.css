@@ -210,7 +210,11 @@ input:focus {
 }
 
 @media only screen and (max-width: 480px) {
-  body {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 0 10px;
   }
 
